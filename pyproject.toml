@@ -1,0 +1,15 @@
+[project]
+name = "yyy-grandma"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faster-whisper>=1.2.1",
+    "openai-whisper>=20250625",
+    "opencv-python>=4.12.0.88",
+    "playwright>=1.57.0",
+    "rapidfuzz>=3.14.3",
+    "rapidocr-onnxruntime>=1.4.4",
+    "yt-dlp>=2025.12.8",
+]
