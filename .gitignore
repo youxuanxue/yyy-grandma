@@ -215,4 +215,5 @@ output/
 
 processing_log.txt
 
+**/images/
 auth_wx.json

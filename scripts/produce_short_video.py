@@ -26,7 +26,7 @@ def run_cmd(cmd):
     print(f"❌ Failed after {max_retries} attempts.")
     return False
 
-def process_clip(clip_data, video_path, temp_dir, font_path):
+def process_clip(clip_data, video_path, temp_dir, font_path, avatar_path=None):
     clip_id = clip_data["id"]
     start = clip_data["time_range"]["start"]
     end = clip_data["time_range"]["end"]
@@ -52,19 +52,12 @@ def process_clip(clip_data, video_path, temp_dir, font_path):
 
     # 2. 转竖屏 + 双字幕布局
     def escape_text(t):
-        # FFmpeg drawtext escaping
-        # 1. Backslash escape \ as \\
-        # 2. Backslash escape ' as \'
-        # 3. Backslash escape : as \:
         t = t.replace("\\", "\\\\").replace(":", "\\:").replace("'", "'\\''")
         return t
     
     title_safe = escape_text(title)
     
-    # 解说：底部区域 (y=1400)
-    # 手动处理长文本换行
-    # FFmpeg drawtext 不支持自动换行，需要手动在 python 中根据每行字数限制进行切分
-    MAX_CHARS_PER_LINE = 18 # 建议每行最大字数
+    MAX_CHARS_PER_LINE = 16 # 缩减一点，给头像留位置
     
     processed_lines = []
     original_lines = commentary.split('\n')
@@ -72,7 +65,6 @@ def process_clip(clip_data, video_path, temp_dir, font_path):
         current_line = ""
         count = 0
         for char in line:
-            # 简单粗暴的字数计算：中文字符算1，英文字符算0.5
             char_len = 1 if ord(char) > 127 else 0.5
             if count + char_len > MAX_CHARS_PER_LINE:
                 processed_lines.append(current_line)
@@ -95,39 +87,67 @@ def process_clip(clip_data, video_path, temp_dir, font_path):
         "shadowx=4:shadowy=4"
     )
 
-    # 解说命令 (多行)
-    base_y = 1400
-    line_height = 80 # 行高 = 字体大小(55) + 间距(25)
+    # 解说命令 (多行) - 调整位置给头像
+    base_y = 1420
+    line_height = 80
     
     for i, line in enumerate(processed_lines):
         line_safe = escape_text(line)
         current_y = base_y + (i * line_height)
         
+        # 如果有头像，文字左对齐，否则居中
+        if avatar_path:
+            x_pos = 260 
+        else:
+            x_pos = "(w-text_w)/2"
+            
         cmd = (
             f"drawtext=fontfile='{font_path}':text='{line_safe}':"
-            "fontcolor=yellow:fontsize=55:" # 颜色改为黄色
-            f"x=(w-text_w)/2:y={current_y}:" # 每一行都单独居中
-            "borderw=3:bordercolor=black:"
-            "shadowx=3:shadowy=3"
+            "fontcolor=yellow:fontsize=50:"
+            f"x={x_pos}:y={current_y}:"
+            "borderw=2:bordercolor=black"
         )
         draw_cmds.append(cmd)
     
     draw_text_filter = ",".join(draw_cmds)
     
+    # 气泡背景高度计算
+    bubble_h = max(160, len(processed_lines) * line_height + 60)
+    
+    avatar_filter = ""
+    if avatar_path and os.path.exists(avatar_path):
+        # 1. 基础背景
+        # 2. 绘制半透明气泡框
+        # 3. 处理头像 (缩放 + 圆形裁剪)
+        # 4. 叠加头像
+        avatar_filter = (
+            f"drawbox=y=1380:x=80:w=920:h={bubble_h}:color=black@0.5:t=fill[with_bubble];"
+            f"[1:v]scale=120:120,format=rgba,geq=lum='p(X,Y)':a='if(gt(sqrt(pow(X-60,2)+pow(Y-60,2)),60),0,255)'[avatar_round];"
+            f"[with_bubble][avatar_round]overlay=110:1410[with_avatar];"
+            f"[with_avatar]{draw_text_filter}[outv]"
+        )
+    else:
+        avatar_filter = f"{draw_text_filter}[outv]"
+
     filter_complex = (
         "[0:v]split=2[bg][main];"
         "[bg]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:10[bg_blurred];"
         "[main]scale=1080:-1[main_scaled];"
-        "[bg_blurred][main_scaled]overlay=0:(H-h)/2[merged];"
-        f"[merged]{draw_text_filter}[outv]"
+        f"[bg_blurred][main_scaled]overlay=0:(H-h)/2[merged];"
+        f"[merged]{avatar_filter}"
     )
 
     convert_cmd = [
-        "ffmpeg", "-i", raw_clip_path,
+        "ffmpeg", "-i", raw_clip_path
+    ]
+    if avatar_path and os.path.exists(avatar_path):
+        convert_cmd.extend(["-i", avatar_path])
+        
+    convert_cmd.extend([
         "-filter_complex", filter_complex,
         "-map", "[outv]", "-map", "0:a",
         "-c:v", "libx264", "-c:a", "aac", "-y", final_clip_path
-    ]
+    ])
     
     if run_cmd(convert_cmd):
         return final_clip_path
@@ -213,6 +233,13 @@ def main():
     print(f"🎥 视频源: {video_path}")
     print(f"💾 输出目录: {output_dir}")
 
+    # 尝试查找头像
+    avatar_path = os.path.join(series_root, "images", "1.jpg")
+    if not os.path.exists(avatar_path):
+        avatar_path = None
+    else:
+        print(f"👤 找到头像: {avatar_path}")
+
     # 加载策略数据
     with open(config_file_path, "r", encoding="utf-8") as f:
         strategy_data = json.load(f)
@@ -220,7 +247,7 @@ def main():
     valid_clips = []
     # 按JSON中的顺序处理
     for clip in strategy_data["clips"]:
-        res = process_clip(clip, video_path, temp_dir, FONT_PATH)
+        res = process_clip(clip, video_path, temp_dir, FONT_PATH, avatar_path)
         if res:
             valid_clips.append(res)
             
