@@ -87,27 +87,65 @@ def process_clip(clip_data, video_path, temp_dir, font_path, avatar_path=None):
         "shadowx=4:shadowy=4"
     )
 
-    # 解说命令 (多行) - 调整位置给头像
+    # 解说命令 (动态调整打字速度，均匀吐字)
     base_y = 1420
     line_height = 80
+    start_delay = 0.2    # 片段开始后延迟多久开始打字
+    
+    # 计算总字数
+    total_chars = sum(len(line) for line in processed_lines)
+    
+    # 获取片段总时长
+    def time_to_seconds(t_str):
+        h, m, s = map(float, t_str.split(':'))
+        return h * 3600 + m * 60 + s
+        
+    clip_duration = time_to_seconds(end) - time_to_seconds(start)
+    
+    # 动态计算打字速度：在 90% 的时长内均匀吐完所有字
+    # 剩余可用时间 = 时长 * 0.9 - 开始延迟
+    available_time = max(1.0, clip_duration * 0.9 - start_delay)
+    typing_speed = min(0.2, available_time / max(1, total_chars))
+    
+    print(f"⏱️ 动态打字速度: {typing_speed:.3f}s/字 (总字数: {total_chars}, 时长: {clip_duration:.1f}s)")
+    
+    current_line_start_time = start_delay
     
     for i, line in enumerate(processed_lines):
-        line_safe = escape_text(line)
         current_y = base_y + (i * line_height)
-        
         # 如果有头像，文字左对齐，否则居中
-        if avatar_path:
-            x_pos = 260 
-        else:
-            x_pos = "(w-text_w)/2"
+        x_pos = 260 if avatar_path else "(w-text_w)/2"
+        
+        # 1. 生成打字过程中的每一帧状态 (除了最后一个字)
+        for j in range(1, len(line)):
+            partial_text = escape_text(line[:j])
+            t_start = current_line_start_time + (j - 1) * typing_speed
+            t_end = current_line_start_time + j * typing_speed
             
+            cmd = (
+                f"drawtext=fontfile='{font_path}':text='{partial_text}':"
+                "fontcolor=yellow:fontsize=50:"
+                f"x={x_pos}:y={current_y}:"
+                f"enable='between(t,{t_start:.2f},{t_end:.2f})':"
+                "borderw=2:bordercolor=black"
+            )
+            draw_cmds.append(cmd)
+            
+        # 2. 生成该行打字完成后的最终状态（持续显示到片段结束）
+        full_line_text = escape_text(line)
+        t_final_start = current_line_start_time + (len(line) - 1) * typing_speed
+        
         cmd = (
-            f"drawtext=fontfile='{font_path}':text='{line_safe}':"
+            f"drawtext=fontfile='{font_path}':text='{full_line_text}':"
             "fontcolor=yellow:fontsize=50:"
             f"x={x_pos}:y={current_y}:"
+            f"enable='gt(t,{t_final_start:.2f})':"
             "borderw=2:bordercolor=black"
         )
         draw_cmds.append(cmd)
+        
+        # 累计下一行的开始时间
+        current_line_start_time += len(line) * typing_speed
     
     draw_text_filter = ",".join(draw_cmds)
     

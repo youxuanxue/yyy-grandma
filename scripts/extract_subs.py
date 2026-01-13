@@ -22,10 +22,12 @@ def extract_subtitles(video_path, model, output_format="srt"):
     start_time = time.time()
     
     # Force initial prompt to Simplified Chinese
+    # Enable word_timestamps for more accurate timestamp alignment
     result = model.transcribe(
         video_path, 
         language="zh", 
         initial_prompt="以下是简体中文的对话。",
+        word_timestamps=True,  # 启用词级时间戳，提高时间戳精度
         verbose=False 
     )
     
@@ -35,8 +37,16 @@ def extract_subtitles(video_path, model, output_format="srt"):
     with open(output_file, "w", encoding="utf-8") as f:
         if output_format == "srt":
             for i, segment in enumerate(result["segments"]):
-                start = format_timestamp(segment["start"])
-                end = format_timestamp(segment["end"])
+                # 如果启用了word_timestamps，使用词级时间戳来优化segment时间戳
+                # 使用第一个词的开始时间和最后一个词的结束时间，提高精度
+                if "words" in segment and len(segment["words"]) > 0:
+                    words = segment["words"]
+                    start = format_timestamp(words[0]["start"])
+                    end = format_timestamp(words[-1]["end"])
+                else:
+                    start = format_timestamp(segment["start"])
+                    end = format_timestamp(segment["end"])
+                
                 text = segment["text"].strip()
                 f.write(f"{i+1}\n")
                 f.write(f"{start} --> {end}\n")
