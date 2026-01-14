@@ -272,7 +272,7 @@ def main():
     print(f"💾 输出目录: {output_dir}")
 
     # 尝试查找头像
-    avatar_path = os.path.join(series_root, "images", "1.jpg")
+    avatar_path = os.path.join(series_root, "images", "2.jpg")
     if not os.path.exists(avatar_path):
         avatar_path = None
     else:
