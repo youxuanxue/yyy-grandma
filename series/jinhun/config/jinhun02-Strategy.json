@@ -1,0 +1,81 @@
+{
+  "series_info": {
+    "title": "金婚",
+    "episode": 2,
+    "year": 2007,
+    "stars": [
+      "张国立",
+      "蒋雯丽",
+      "林永健",
+      "李菁菁"
+    ],
+    "roles": [
+      "佟志",
+      "文丽",
+      "大庄",
+      "庄嫂"
+    ],
+    "plot_summary": "新婚燕尔的佟志和文丽开始了婚后生活。文丽回娘家不舍得走，妈妈和大姐传授夫妻相处之道。佟志为了老婆承诺戒烟，两人甜蜜约定。邻居大庄嫌弃庄嫂身材，羡慕文丽。佟志加班回来不愿洗漱，夫妻爆发第一次争吵，互揭对方的臭毛病。最终佟志认错，把撕碎的保证书粘好，两人和好如初。"
+  },
+  "clips": [
+    {
+      "id": "clip_1",
+      "time_range": { "start": "00:04:54", "end": "00:05:15" },
+      "duration": 21,
+      "title": "新婚妻子不愿回家？",
+      "commentary_text": "刚结婚就舍不得离开娘家\n这场面是不是特眼熟",
+      "target_audience_insight": "设计思路：新婚妻子对娘家的依恋是很多老年人都经历过的场景。那个年代女儿出嫁是大事，这种舍不得的情感很容易引发共鸣。"
+    },
+    {
+      "id": "clip_2",
+      "time_range": { "start": "00:08:58", "end": "00:09:18" },
+      "duration": 20,
+      "title": "大姐的罪成了妹妹的福",
+      "commentary_text": "那个年代结婚前谁教过您\n大姐受的罪可太真实了",
+      "target_audience_insight": "设计思路：老一辈结婚时没人教导夫妻之道，全靠自己摸索。大姐这段话道出了多少人的心声，引发怀旧共鸣。"
+    },
+    {
+      "id": "clip_3",
+      "time_range": { "start": "00:21:00", "end": "00:21:20" },
+      "duration": 20,
+      "title": "为老婆戒烟值不值？",
+      "commentary_text": "抽了五年说戒就戒\n老婆说以后天天给他洗脚",
+      "target_audience_insight": "设计思路：新婚时的甜蜜承诺，为了对方愿意改变自己的坏习惯。这种纯粹的爱情是银发族最怀念的。"
+    },
+    {
+      "id": "clip_4",
+      "time_range": { "start": "00:15:15", "end": "00:15:35" },
+      "duration": 20,
+      "title": "嫌媳妇像麻袋？",
+      "commentary_text": "大庄嫌弃庄嫂身材\n您身边有没有这样的男人",
+      "target_audience_insight": "设计思路：大庄羡慕文丽身材嫌弃自己媳妇，这种典型的男人心态在那个年代很常见。幽默中带着讽刺，引发讨论。"
+    },
+    {
+      "id": "clip_5",
+      "time_range": { "start": "00:33:55", "end": "00:34:14" },
+      "duration": 19,
+      "title": "打呼噜脚臭吧唧嘴！",
+      "commentary_text": "夫妻吵架互揭老底\n您家那口子中了哪条",
+      "target_audience_insight": "设计思路：打呼噜、脚臭、吧唧嘴是夫妻生活中最常见的矛盾点。这些鸡毛蒜皮的小事勾起了几十年婚姻生活的回忆。"
+    }
+  ],
+  "wechat": {
+    "title": "新婚第一架打呼噜脚臭全招了",
+    "description": "结婚半年就原形毕露？打呼噜打得跟雷一样，脚臭能熏死一头大象，吃饭还吧唧嘴...这些话您是不是也想跟那口子说？📝 当年您第一次跟爱人吵架是因为啥？💕 评论区聊聊",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50", "#60", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#夫妻吵架", "#新婚生活"],
+    "pinned_comment": "打呼噜、脚臭、吧唧嘴、不爱洗澡...您家那口子中了哪条？评论区说说！"
+  },
+  "douyin": {
+    "title": "新婚吵架互揭老底太真实了",
+    "description": "打呼噜跟打雷一样😤脚臭能熏死大象🐘吃饭吧唧嘴👄结婚半年原形毕露！这段吵架词简直是教科书级别💪您第一次跟爱人吵架是啥时候？👇",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50", "#60", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#夫妻日常", "#吵架"],
+    "pinned_comment": "打呼噜、脚臭、吧唧嘴，您家那位中了哪条？在评论区告诉我！"
+  },
+  "youtube": {
+    "title": "新婚吵架互揭老底 | First Fight After Marriage - Classic Chinese Drama",
+    "description": "【金婚 Golden Marriage EP02】新婚燕尔的佟志和文丽开始了婚后生活。佟志加班回来不愿洗漱，两人爆发第一次争吵。打呼噜打得跟雷一样、脚臭能熏死大象、吃饭吧唧嘴...夫妻互揭老底，把平日忍着没说的话全倒了出来。\n\n🌍 For international viewers: In this episode of \"Golden Marriage\", newlyweds Tongzhi and Wenli have their first real argument. The complaints? Snoring like thunder, smelly feet, and eating noisily - universal marriage struggles that transcend cultures! Set in 1950s China, this drama beautifully captures the ups and downs of married life.\n\n📺 海外华人朋友们，这对新婚夫妻的第一次吵架是否让您想起了自己当年的经历？那些鸡毛蒜皮的小事，现在回想起来是不是觉得特别温馨？\n🎬 Subscribe for more classic Chinese drama clips with cultural insights!",
+    "tags": ["金婚", "GoldenMarriage", "ChineseDrama", "ClassicCDrama", "Cdrama", "AsianDrama", "ChineseCulture", "VintageChina", "MarriageLife", "MarriageHumor", "CoupleGoals", "父母爱情", "怀旧", "张国立", "蒋雯丽", "1950sChina"],
+    "pinned_comment": "Snoring, smelly feet, or eating noisily - which one does YOUR partner have? 🤣 打呼噜、脚臭、吧唧嘴，您家那位中了哪条？Comment below! 评论区互动！",
+    "playlists": "咱的《金婚》"
+  }
+}

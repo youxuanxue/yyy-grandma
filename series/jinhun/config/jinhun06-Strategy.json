@@ -1,0 +1,73 @@
+{
+  "series_info": {
+    "title": "金婚",
+    "episode": 6,
+    "year": 2007,
+    "stars": [
+      "张国立",
+      "蒋雯丽",
+      "林永健",
+      "李菁菁"
+    ],
+    "roles": [
+      "佟志",
+      "文丽",
+      "大庄",
+      "庄嫂"
+    ],
+    "plot_summary": "三年困难时期，佟志一家饿得浮肿。晏妮吃了馊饭，文丽和佟志为此吵架。佟志把师父省给他的馒头带回家，夫妻俩互相推让着吃。文丽妈妈饿得浮肿还把食物让给外孙女。晏妮的鞋磨破了脚，家里没钱买新鞋。文丽学骑自行车时摔倒流产。最终文丽用珍贵的自行车票换了给女儿买双新鞋。大庄捡来的小兔子被雨水冲死后，被佟志做成了肉给全家解馋。"
+  },
+  "clips": [
+    {
+      "id": "clip_1",
+      "time_range": { "start": "00:05:35", "end": "00:05:58" },
+      "duration": 23,
+      "title": "馒头让来让去谁吃？",
+      "commentary_text": "困难时期一个馒头都珍贵\n夫妻俩你让我我让你\n这感情多深啊",
+      "target_audience_insight": "三年困难时期的夫妻恩爱场面。老年观众经历过那个年代，对'互相让吃'的场景感同身受。这种患难与共的感情最能打动人心。"
+    },
+    {
+      "id": "clip_2",
+      "time_range": { "start": "00:16:12", "end": "00:16:34" },
+      "duration": 22,
+      "title": "梦里排骨被叫醒了！",
+      "commentary_text": "佟志说梦里排骨刚到嘴边\n就被叫醒了\n那年头您是不是也梦见过吃肉",
+      "target_audience_insight": "困难时期的幽默回忆。饿到做梦都想吃排骨，这种经历很多老年人都有。用幽默的方式讲述苦难年代，既有共鸣又不压抑。"
+    },
+    {
+      "id": "clip_3",
+      "time_range": { "start": "00:36:51", "end": "00:37:14" },
+      "duration": 23,
+      "title": "自行车票换双鞋！",
+      "commentary_text": "那年头自行车票多金贵啊\n文丽舍不得给自己用\n换成女儿的一双新鞋",
+      "target_audience_insight": "母爱无私的经典场面。自行车票在那个年代是稀缺资源，文丽宁愿不要自行车也要给女儿买鞋。老年观众能感受到那个年代父母的付出。"
+    },
+    {
+      "id": "clip_4",
+      "time_range": { "start": "00:39:55", "end": "00:40:21" },
+      "duration": 26,
+      "title": "腊肉？那是兔子肉！",
+      "commentary_text": "文丽问这肉味道怎么怪怪的\n佟志说那是燕妮的小兔子\n您说这兔子该不该吃",
+      "target_audience_insight": "困难时期的生活幽默。为了吃顿肉，连孩子的宠物兔子都给炖了。这种'无奈中的乐观'是那个年代的生存智慧，能引发老年观众会心一笑。"
+    }
+  ],
+  "wechat": {
+    "title": "困难时期夫妻让馒头",
+    "description": "三年困难时期，一个月吃不上一顿白米饭。佟志把师父省给他的馒头带回家，夫妻俩你让我我让你，谁都舍不得吃。晏妮的鞋磨破了脚，文丽用珍贵的自行车票换了给女儿买新鞋。那个年代，做梦都想吃块排骨！📝 您经历过那个困难时期吗？👇 评论区聊聊那些年咱们是怎么熬过来的！",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50后", "#60后", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#三年困难时期", "#粮票"],
+    "pinned_comment": "那个困难时期您家是怎么熬过来的？有没有互相让吃的温馨回忆？来评论区聊聊！"
+  },
+  "douyin": {
+    "title": "馒头让来让去太感人",
+    "description": "三年困难时期一个月吃不上白米饭😢佟志把师父给的馒头带回家🍞夫妻俩你让我我让你都舍不得吃💕晏妮鞋磨破脚了文丽用自行车票换新鞋👟做梦梦见排骨刚到嘴边就被叫醒了😭那个年代真不容易啊❤️您经历过吗👇",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50后", "#60后", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#困难时期", "#那些年"],
+    "pinned_comment": "那个困难时期您家最难忘的是什么？来评论区聊聊！"
+  },
+  "youtube": {
+    "title": "馒头让来让去的爱情 | When One Steamed Bun Was Precious: Love During China's Great Famine",
+    "description": "【金婚 Golden Marriage EP06】三年困难时期（1959-1961），佟志一家饿得浮肿。佟志把师父省给他的馒头带回家，夫妻俩互相推让着吃，谁都舍不得先吃。晏妮的鞋磨破了脚，家里没钱买新鞋。文丽学骑自行车时不慎流产，最终用珍贵的自行车票换了给女儿买双新鞋。大庄捡来给女儿玩的小兔子，被雨水冲死后，佟志偷偷做成了肉给全家解馋。\n\n🌍 For international viewers: This episode depicts China's 'Three Years of Hardship' (1959-1961), a period of severe famine. The couple shares a single steamed bun, each insisting the other eat it - showing love through sacrifice during hard times. Tongzhi dreams of pork ribs and wakes up just as he's about to bite! Wenli trades her precious bicycle voucher (a rare commodity back then) for her daughter's new shoes. These small acts of love during hardship resonate across cultures. How did your family survive difficult times?\n\n📺 海外华人朋友们，您的父母有没有讲过那个困难时期的故事？这部剧是否让您更理解那一代人的坚韧？\n🎬 Subscribe for more classic Chinese drama clips with cultural insights!",
+    "tags": ["金婚", "GoldenMarriage", "ChineseDrama", "ClassicCDrama", "Cdrama", "AsianDrama", "ChineseCulture", "VintageChina", "MarriageLife", "GreatFamine", "1960sChina", "父母爱情", "怀旧", "困难时期", "张国立", "蒋雯丽"],
+    "pinned_comment": "The 'sharing one bun' scene hit hard! 一个馒头让来让去太感人！😭 Did your parents/grandparents share stories about hard times? 您的父母有没有讲过困难时期的故事？Comment below! 评论区聊聊！",
+    "playlists": "咱的《金婚》"
+  }
+}

@@ -76,12 +76,20 @@ def process_playlist(url, output_path="downloads"):
 
         # Configuration for downloading
         download_opts = {
-            'format': 'best', # Download best quality
+            # 优先选择非 HLS 格式（避免分片下载问题）
+            'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
             'outtmpl': outtmpl,
             'ignoreerrors': True,
             # Skip if file already exists
             'nooverwrites': True,
             'download_archive': os.path.join(output_path, 'downloaded.txt'), # Record downloaded IDs
+            # 下载优化
+            'fragment_retries': 10,  # 分片重试次数
+            'skip_unavailable_fragments': True,  # 跳过不可用分片
+            'retries': 10,  # 整体重试次数
+            'file_access_retries': 5,  # 文件访问重试
+            # 合并格式
+            'merge_output_format': 'mp4',
         }
 
         # 另外检查目标文件是否已存在（不仅依赖 archive，也检查实际文件）

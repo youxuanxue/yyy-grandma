@@ -15,84 +15,67 @@
       "大庄",
       "庄嫂"
     ],
-    "plot_summary": "1956年，小学数学老师文丽与重型机械厂技术员佟志因一场婚礼纠纷相识。文丽批评佟志帮助朋友大庄背叛恋人美美，骂他冷血麻木。没想到，两人竟被安排相亲。佟志死皮赖脸追求文丽，最终用一纸保证书打动丈母娘，抱得美人归。"
+    "plot_summary": "1956年，佟志和文丽经介绍相亲，因大庄婚礼闹剧产生误会。文丽认为佟志不道德，佟志多次找她解释。两人在舞会上和解，佟志正式求婚，并写下六条保证书获得岳父母认可，最终步入婚姻殿堂。"
   },
   "clips": [
     {
       "id": "clip_1",
       "time_range": { "start": "00:05:58", "end": "00:06:23" },
       "duration": 25,
-      "title": "恩格斯都搬出来了？",
-      "commentary_text": "您听听这姑娘，引经据典批评人\n没有爱情的婚姻是不道德的\n这话放现在还管用不？",
-      "target_audience_insight": "那个年代知识分子常引用马恩著作，这种辩论场景让老年观众回忆起年轻时的理想主义。"
+      "title": "恩格斯都说了！",
+      "commentary_text": "那会儿谈恋爱都得引经据典\n恩格斯的话就是金科玉律\n您当年是不是也这么辩论过",
+      "target_audience_insight": "50-60年代的年轻人热衷引用马克思恩格斯的话来讨论恋爱婚姻，这是那个时代特有的浪漫方式，能唤起老年人的青春记忆。"
     },
     {
       "id": "clip_2",
-      "time_range": { "start": "00:10:27", "end": "00:10:50" },
-      "duration": 23,
-      "title": "相亲见面就被拒？",
-      "commentary_text": "相亲刚见面就说不合适\n这姑娘也太傲了吧\n您当年相亲有没有这么直接？",
-      "target_audience_insight": "相亲是那个年代主流的婚恋方式，老年观众对'介绍对象'有强烈的代入感。"
+      "time_range": { "start": "00:27:47", "end": "00:28:07" },
+      "duration": 20,
+      "title": "人生还是人森？",
+      "commentary_text": "那会儿中央推广普通话\n南方人说普通话可太难了\n您身边有没有这样的人",
+      "target_audience_insight": "方言和普通话的梗是老一辈人的共同记忆，尤其是南方人学普通话的困难，容易引发会心一笑和评论区分享。"
     },
     {
       "id": "clip_3",
-      "time_range": { "start": "00:11:38", "end": "00:12:05" },
-      "duration": 27,
-      "title": "冷血麻木不配谈感情？",
-      "commentary_text": "当年的女文青脾气真硬\n张口就是人生观价值观\n这要搁现在得气跑多少相亲对象",
-      "target_audience_insight": "展现那个年代年轻人的清高和理想主义，同时引发对比讨论。"
+      "time_range": { "start": "00:33:49", "end": "00:34:08" },
+      "duration": 19,
+      "title": "让她一辈子！",
+      "commentary_text": "那个年代的男人多实在\n说让就是让，一辈子的承诺\n您家那口子当年怎么说的",
+      "target_audience_insight": "老一辈人重视婚姻承诺，佟志'让她一辈子'的表态代表了那个年代男人的担当，能引发老年观众对自己婚姻的回忆。"
     },
     {
       "id": "clip_4",
-      "time_range": { "start": "00:15:35", "end": "00:16:01" },
-      "duration": 26,
-      "title": "年年先进也没用？",
-      "commentary_text": "佟志拿出一堆奖状证明自己\n人家姑娘一句话就给怼回去了\n这些只能证明你工作努力",
-      "target_audience_insight": "那个年代'先进工作者'是极高荣誉，佟志用这个追媳妇却碰壁，形成反差萌。"
+      "time_range": { "start": "00:37:52", "end": "00:38:17" },
+      "duration": 25,
+      "title": "婚前保证书？",
+      "commentary_text": "那会儿结婚还得写保证书\n不瞪眼珠子不大嗓门\n您见过这样的保证书吗",
+      "target_audience_insight": "婚前保证书是那个年代的特色仪式，内容既搞笑又温馨，能引发老年观众分享自己当年结婚的故事。"
     },
     {
       "id": "clip_5",
-      "time_range": { "start": "00:22:46", "end": "00:23:07" },
-      "duration": 21,
-      "title": "巴金的家你还记得吗？",
-      "commentary_text": "大庄就像巴金小说里的大哥\n爱的是梅表姐，娶的是瑞珏\n您还记得那本书吗？",
-      "target_audience_insight": "《家》是那个年代必读书目，用文学作品类比爱情，唤起强烈怀旧情绪。"
-    },
-    {
-      "id": "clip_6",
-      "time_range": { "start": "00:27:28", "end": "00:27:58" },
-      "duration": 30,
-      "title": "人森还是人生？",
-      "commentary_text": "人的一生最宝贵的是生命\n佟志的四川普通话太逗了\n往事还是往似，人生还是人森",
-      "target_audience_insight": "《钢铁是怎样炼成的》是那个年代的精神食粮，配合四川口音的幽默效果。"
-    },
-    {
-      "id": "clip_7",
-      "time_range": { "start": "00:37:47", "end": "00:38:18" },
-      "duration": 31,
-      "title": "这保证书您见过吗？",
-      "commentary_text": "不能瞪眼珠子不能大嗓门\n一辈子只爱文丽同志一个\n这保证书比房本管用",
-      "target_audience_insight": "保证书是全剧经典场景，承诺虽朴素却打动人心，引发对比讨论。"
-    },
-    {
-      "id": "clip_8",
-      "time_range": { "start": "00:42:38", "end": "00:43:05" },
-      "duration": 27,
-      "title": "新婚夜听墙根？",
-      "commentary_text": "大庄蹲门口听墙根\n新婚夜揉腿这一说倒是头回听\n老姐妹们懂的都懂",
-      "target_audience_insight": "集体宿舍时代的独特回忆，幽默且有年代感，引发会心一笑。"
+      "time_range": { "start": "00:42:49", "end": "00:43:09" },
+      "duration": 20,
+      "title": "新婚夜揉腿？",
+      "commentary_text": "新婚之夜给媳妇揉腿\n大庄说哪有这一说\n您家新婚那晚啥情况",
+      "target_audience_insight": "新婚之夜的幽默场景，既有那个年代的纯真感，又有生活气息，容易引发老年观众对自己新婚的甜蜜回忆。"
     }
   ],
   "wechat": {
-    "title": "保证书比房本管用的年代",
-    "description": "没有彩礼，没有房车，只有一张手写的保证书📝 佟志追文丽，从被骂冷血麻木到写下六条承诺，这才是那个年代的爱情💕 您家那口子当年写过保证书吗？评论区聊聊👇",
-    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50后", "#60后", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#1956年"],
-    "pinned_comment": "老姐妹们，当年结婚时您家那口子写过保证书吗？现在兑现了几条？评论区说说"
+    "title": "佟志的六条保证书",
+    "description": "1956年的婚前保证书长啥样？不瞪眼珠子、不大嗓门、一辈子只爱一个人...那个年代的承诺，您还记得吗？📝💕 转发给您的老伴看看，当年的承诺还算数吗？👇",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50后", "#60后", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#婚前保证书", "#新婚"],
+    "pinned_comment": "当年您结婚的时候，有没有写过保证书？或者有没有什么特别的承诺？来评论区说说您的故事！"
   },
   "douyin": {
-    "title": "一张保证书锁定五十年",
-    "description": "不能瞪眼珠子😤 不能大嗓门🔇 脏活累活抢着干💪 一辈子只爱你一个❤️ 这是佟志写给文丽的保证书，比现在的房本还管用🏠 评论区说说您家那口子当年许过什么诺？👇",
-    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50后", "#60后", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#保证书"],
-    "pinned_comment": "当年的保证书比房产证管用，您家那口子当年许过什么诺？现在兑现了没有？"
+    "title": "这保证书绝了！",
+    "description": "不瞪眼珠子、不大嗓门、一辈子只爱一个人！😍 1956年的婚前保证书，比现在的彩礼房子车子实在多了！💪 那个年代的爱情，纯粹又真挚❤️ 您见过这样的保证书吗？👇",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50后", "#60后", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#婚前保证书", "#1956"],
+    "pinned_comment": "那个年代结婚不要房不要车，一纸保证书就是最大的承诺！您觉得现在的婚姻少了什么？"
+  },
+  "youtube": {
+    "title": "婚前保证书的年代 | Marriage Vows in 1950s China - Can Words Last a Lifetime?",
+    "description": "【金婚 Golden Marriage EP01】1956年，佟志和文丽经介绍相亲。因为帮朋友大庄说话，佟志被文丽误认为是不道德的人。经过多次解释和追求，佟志最终打动了文丽，并写下六条婚前保证书，承诺\"让她一辈子\"，两人步入婚姻殿堂。\n\n🌍 For international viewers: This episode shows how young people dated in 1950s China. Tong Zhi quotes Engels to discuss marriage ethics, writes a 6-point marriage guarantee letter, and promises to \"let her win for a lifetime.\" A touching glimpse into how love and commitment looked in post-revolution China!\n\n📺 海外华人朋友们，这部剧是否让您想起了父母那一辈的爱情故事？那个年代的承诺，简单却真挚。\n🎬 Subscribe for more classic Chinese drama clips with cultural insights!",
+    "tags": ["金婚", "GoldenMarriage", "ChineseDrama", "ClassicCDrama", "Cdrama", "AsianDrama", "ChineseCulture", "VintageChina", "1950sChina", "MarriageLife", "MarriageVows", "父母爱情", "怀旧", "张国立", "蒋雯丽"],
+    "pinned_comment": "Did your parents or grandparents have any special marriage promises? 您父母那辈结婚时有什么特别的承诺吗？🤣 Share your family story! 来分享您的家庭故事！",
+    "playlists": "咱的《金婚》"
   }
 }

@@ -1,0 +1,81 @@
+{
+  "series_info": {
+    "title": "金婚",
+    "episode": 4,
+    "year": 2007,
+    "stars": [
+      "张国立",
+      "蒋雯丽",
+      "林永健",
+      "李菁菁"
+    ],
+    "roles": [
+      "佟志",
+      "文丽",
+      "大庄",
+      "庄嫂"
+    ],
+    "plot_summary": "文丽怀孕后佟志忙前忙后照顾她，被大庄嘲笑是娘娘腔。庄嫂生了儿子，佟志和文丽讨论给孩子起名叫佟格斯或佟燕妮。怀孕期间不能同房，佟志被迫去隔壁宿舍睡觉。文丽生下女儿燕妮，佟志给女儿洗尿布被笑话没男人味。庄嫂来探望说月子里不能透风，文丽气愤别人因为自己生女儿而笑话她。"
+  },
+  "clips": [
+    {
+      "id": "clip_1",
+      "time_range": { "start": "00:01:09", "end": "00:01:31" },
+      "duration": 22,
+      "title": "一加一等于三？",
+      "commentary_text": "怀孕后老爱忘事\n佟志说一加一等于三\n您当年怀孕有没有变迷糊",
+      "target_audience_insight": "怀孕后的各种担忧和忘事是每个经历过的女性都有共鸣的话题。佟志调侃'一加一等于三'既幽默又温馨，展现了新婚夫妻的甜蜜互动。"
+    },
+    {
+      "id": "clip_2",
+      "time_range": { "start": "00:03:49", "end": "00:04:10" },
+      "duration": 21,
+      "title": "狗子？叫佟格斯！",
+      "commentary_text": "人家孩子叫狗子\n文丽要叫佟格斯\n那会儿谁没崇拜过恩格斯",
+      "target_audience_insight": "50-60年代对马克思主义人物的崇拜是时代特色。庄嫂给儿子起名'狗子'和佟志夫妻想起名'佟格斯'形成对比，既有时代印记又有生活趣味。"
+    },
+    {
+      "id": "clip_3",
+      "time_range": { "start": "00:09:55", "end": "00:10:14" },
+      "duration": 19,
+      "title": "友情不如枕头情？",
+      "commentary_text": "哥们十多年的交情\n娶了媳妇就不认人了\n您结婚后老朋友还常来往吗",
+      "target_audience_insight": "结婚后朋友关系的变化是普遍现象。大庄抱怨佟志'友情不如枕头情'的台词生动有趣，能引发老年观众对自己婚后社交变化的回忆。"
+    },
+    {
+      "id": "clip_4",
+      "time_range": { "start": "00:27:21", "end": "00:27:42" },
+      "duration": 21,
+      "title": "男人洗尿布丢人？",
+      "commentary_text": "大老爷们洗尿布被笑话\n文丽说男女平等\n那会儿您家谁洗尿布啊",
+      "target_audience_insight": "那个年代男主外女主内的观念根深蒂固。佟志说大白天洗尿布会被笑话死，文丽反驳男女平等，这种冲突至今仍有话题性。"
+    },
+    {
+      "id": "clip_5",
+      "time_range": { "start": "00:23:53", "end": "00:24:10" },
+      "duration": 17,
+      "title": "生女儿失望吗？",
+      "commentary_text": "文丽问生女儿失望吗\n佟志说我就喜欢女儿\n这话当年您信吗",
+      "target_audience_insight": "那个年代重男轻女的观念普遍存在。佟志说喜欢女儿的表态虽然可能有客套成分，但展现了新时代男性的进步。老年观众会回忆自己当年生孩子的情景。"
+    }
+  ],
+  "wechat": {
+    "title": "男人洗尿布丢人吗",
+    "description": "那个年代怀孕后一加一都算不清了？给孩子起名叫佟格斯还是狗子？大老爷们洗尿布真的会被笑话？📝 生女儿说不失望，这话您信吗？💕 转发给老伴看看，当年谁洗的尿布？👇",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50后", "#60后", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#怀孕", "#洗尿布"],
+    "pinned_comment": "当年您家孩子的尿布是谁洗的？生的是儿子还是女儿？来评论区聊聊那时候的事！"
+  },
+  "douyin": {
+    "title": "大老爷们洗尿布丢人",
+    "description": "怀孕后一加一等于三😂给孩子起名佟格斯崇拜恩格斯📚哥们十多年交情不如枕头情💔大老爷们洗尿布被笑话😤文丽说男女平等💪生女儿说不失望您信吗❤️👇",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50后", "#60后", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#怀孕", "#男女平等"],
+    "pinned_comment": "那个年代您家谁洗尿布？男人洗尿布真的丢人吗？评论区说说！"
+  },
+  "youtube": {
+    "title": "男人洗尿布丢人吗 | Should Men Do Baby Laundry? 1950s China Gender Roles",
+    "description": "【金婚 Golden Marriage EP04】文丽怀孕后担心自己变傻，佟志调侃说一加一等于三。给孩子起名字，别人家叫狗子，佟志夫妻想叫佟格斯（崇拜恩格斯）。大庄抱怨佟志结婚后就不认哥们了，友情不如枕头情。文丽生下女儿燕妮，佟志说大老爷们大白天洗尿布会被笑话死，文丽反驳说男女平等。\n\n🌍 For international viewers: This episode shows fascinating gender dynamics in 1950s China! When Tongzhi complains that doing baby laundry in public would embarrass him, Wenli argues for gender equality. The naming discussion is also interesting - they want to name their baby after Engels (the philosopher)! Watch how this young couple navigates pregnancy, childbirth, and changing gender roles.\n\n📺 海外华人朋友们，那个年代男人洗尿布真的会被笑话吗？您家当年是谁照顾孩子的？给孩子起名字有没有考虑过革命人物的名字？\n🎬 Subscribe for more classic Chinese drama clips with cultural insights!",
+    "tags": ["金婚", "GoldenMarriage", "ChineseDrama", "ClassicCDrama", "Cdrama", "AsianDrama", "ChineseCulture", "VintageChina", "MarriageLife", "GenderRoles", "1950sChina", "父母爱情", "怀旧", "张国立", "蒋雯丽"],
+    "pinned_comment": "Who did the baby laundry in YOUR family? 您家当年谁洗的尿布？🍼 Dad or Mom? 爸爸还是妈妈？Comment below! 评论区告诉我！",
+    "playlists": "咱的《金婚》"
+  }
+}

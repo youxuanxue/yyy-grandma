@@ -1,0 +1,81 @@
+{
+  "series_info": {
+    "title": "金婚",
+    "episode": 5,
+    "year": 2007,
+    "stars": [
+      "张国立",
+      "蒋雯丽",
+      "林永健",
+      "李菁菁"
+    ],
+    "roles": [
+      "佟志",
+      "文丽",
+      "大庄",
+      "庄嫂"
+    ],
+    "plot_summary": "佟志的妈妈从四川千里迢迢来北京探望儿子儿媳。婆婆嫌弃文丽不会做家务、把饭煮糊了，坚持'结婚要以丈夫口味为主'的老观念。文丽主张男女平等，婆媳暗中较劲。婆婆还拿前女友姚安伦和文丽比较，夸姚安伦会做菜嘴巴甜。文丽委屈大哭，向妈妈诉苦说自己像童养媳。两个亲家见面互相暗讽，最终文丽学会讨好婆婆，婆婆决定回四川。"
+  },
+  "clips": [
+    {
+      "id": "clip_1",
+      "time_range": { "start": "00:05:00", "end": "00:05:20" },
+      "duration": 20,
+      "title": "以丈夫口味为主？",
+      "commentary_text": "婆婆教训儿媳\n结婚要以丈夫口味为主\n您当年婆婆有没有这样说过",
+      "target_audience_insight": "这是典型的老派婆婆观念。50-60年代结婚后确实要以夫家为主，老年观众听到这话会很有共鸣，想起自己当年的处境或者自己教训儿媳的往事。"
+    },
+    {
+      "id": "clip_2",
+      "time_range": { "start": "00:08:05", "end": "00:08:24" },
+      "duration": 19,
+      "title": "男人围灶台丢人？",
+      "commentary_text": "婆婆说男人做大事\n围着灶台转不像话\n您家那位进过厨房吗",
+      "target_audience_insight": "那个年代'男主外女主内'根深蒂固。婆婆嫌儿子做家务'没出息'的观念，与当代分工不同，能引发老年观众对家庭分工的讨论。"
+    },
+    {
+      "id": "clip_3",
+      "time_range": { "start": "00:13:25", "end": "00:13:49" },
+      "duration": 24,
+      "title": "男女平等是老黄历？",
+      "commentary_text": "婆婆说男人就是男人\n女人就是女人\n文丽敢顶嘴说老黄历",
+      "target_audience_insight": "新旧观念的激烈碰撞。婆婆代表传统观念，文丽代表新时代女性。这种婆媳之间的价值观冲突，每个家庭都经历过，能引发强烈共鸣和讨论。"
+    },
+    {
+      "id": "clip_4",
+      "time_range": { "start": "00:17:55", "end": "00:18:15" },
+      "duration": 20,
+      "title": "委屈得像童养媳！",
+      "commentary_text": "文丽哭着说从没这么委屈\n早知道就不结婚了\n这场面您是不是特眼熟",
+      "target_audience_insight": "婆媳矛盾激化的爆发点。文丽委屈大哭说'早知道就不结婚了'，这句话道出了无数媳妇的心声。老年女性观众不管是当过媳妇还是当过婆婆，都会感同身受。"
+    },
+    {
+      "id": "clip_5",
+      "time_range": { "start": "00:22:32", "end": "00:22:52" },
+      "duration": 20,
+      "title": "前女友比我好？",
+      "commentary_text": "婆婆夸姚安伦会做菜\n嘴巴甜人家都喜欢\n这话听着多扎心啊",
+      "target_audience_insight": "婆婆当着儿子面夸前女友、贬低儿媳，这是婆媳矛盾的经典戏码。老年观众会想起自己被比较或者比较儿媳的往事，话题性极强。"
+    }
+  ],
+  "wechat": {
+    "title": "婆婆来了儿媳哭了",
+    "description": "四川婆婆千里来探亲，嫌弃儿媳不会做饭把饭煮糊了。还说'结婚要以丈夫口味为主'，儿媳说'都男女平等了'，婆婆反驳'男人就是男人女人就是女人'。婆婆还拿前女友和儿媳比较，说人家会做菜嘴巴甜。儿媳委屈大哭说从没受过这么大的气！📝 您当年和婆婆处得怎么样？👇 转发给老姐妹看看，评论区聊聊婆媳那些事！",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50后", "#60后", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#婆媳矛盾", "#婆婆"],
+    "pinned_comment": "您当年和婆婆相处得怎么样？有没有被婆婆嫌弃过不会做家务？来评论区说说您的婆媳故事！"
+  },
+  "douyin": {
+    "title": "婆婆来了儿媳委屈哭",
+    "description": "四川婆婆来北京嫌弃儿媳把饭煮糊了😤还说结婚要以丈夫口味为主🔇儿媳说男女平等婆婆不服💪婆婆夸前女友会做菜嘴巴甜😱儿媳委屈大哭说早知道就不结婚了😭这婆媳矛盾太真实了❤️您和婆婆处得怎么样👇",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50后", "#60后", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#婆媳矛盾", "#婆媳关系"],
+    "pinned_comment": "您和婆婆相处时有没有受过委屈？来评论区聊聊！"
+  },
+  "youtube": {
+    "title": "婆婆来了儿媳哭了 | Mother-in-law From Hell? Classic Chinese Family Drama",
+    "description": "【金婚 Golden Marriage EP05】佟志的妈妈从四川来北京探亲。婆婆嫌弃儿媳文丽不会做饭、把饭煮糊了，还教训说'结婚要以丈夫口味为主'。文丽主张男女平等，婆婆反驳'不管什么年代，男人就是男人，女人就是女人'。婆婆还当着儿子面夸前女友姚安伦会做菜、嘴巴甜，文丽委屈大哭说'从小到大没受过这么大的委屈'。两个亲家见面互相暗讽，最终文丽学会讨好婆婆，婆婆决定回四川。\n\n🌍 For international viewers: This episode shows the classic Chinese mother-in-law and daughter-in-law conflict! When Tongzhi's mom visits from Sichuan, she criticizes Wenli for burning the rice and not knowing how to cook. She insists 'a wife should cater to her husband's taste' - a traditional view that clashes with Wenli's modern belief in gender equality. The drama escalates when the mother-in-law praises her son's ex-girlfriend! These family dynamics are universal - does your culture have similar mother-in-law stereotypes?\n\n📺 海外华人朋友们，您当年和婆婆相处得怎么样？有没有经历过这种婆媳矛盾？这部剧是不是让您想起了自己的故事？\n🎬 Subscribe for more classic Chinese drama clips with cultural insights!",
+    "tags": ["金婚", "GoldenMarriage", "ChineseDrama", "ClassicCDrama", "Cdrama", "AsianDrama", "ChineseCulture", "VintageChina", "MarriageLife", "MotherInLaw", "FamilyDrama", "父母爱情", "怀旧", "婆媳矛盾", "张国立", "蒋雯丽"],
+    "pinned_comment": "Mother-in-law drama is UNIVERSAL! 婆媳矛盾全世界都有！😅 What's your experience? 您的婆媳故事是怎样的？Team mother-in-law or team daughter-in-law? 您站婆婆还是儿媳？Comment below! 评论区聊聊！",
+    "playlists": "咱的《金婚》"
+  }
+}
