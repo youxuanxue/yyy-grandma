@@ -30,9 +30,8 @@ $ARGUMENTS = <子命令> <集数> [平台]
 
 1. 读取 `docs/jinhun_script_prompt.md` 获取分析规范
 2. 读取字幕文件 `series/jinhun/downloads/jinhun{集数}.srt`
-3. 按照规范分析剧情，筛选 3-5 个高光片段
-4. 生成策略 JSON 文件到 `series/jinhun/config/jinhun{集数}-Strategy.json`
-5. 输出摘要，提示用户检查并修改 JSON 后运行 `/jinhun render {集数}`
+3. 按照规范分析剧情，生成策略 JSON 文件到 `series/jinhun/config/jinhun{集数}-Strategy.json`
+4. 输出摘要，提示用户检查并修改 JSON 后运行 `/jinhun render {集数}`
 
 ### 当子命令为 `render` 时：
 

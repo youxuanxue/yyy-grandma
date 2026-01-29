@@ -66,7 +66,7 @@ def extract_subtitles(video_path, model, output_format="srt"):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract subtitles from video")
     parser.add_argument("path", help="Path to video file or directory")
-    parser.add_argument("--model", default="base", help="Whisper model size (tiny, base, small, medium, large)")
+    parser.add_argument("--model", default="medium", help="Whisper model size (tiny, base, small, medium, large)")
     args = parser.parse_args()
 
     # Load model ONCE outside the loop
