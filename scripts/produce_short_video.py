@@ -7,6 +7,7 @@ import re
 
 # 配置
 FONT_PATH = "/System/Library/Fonts/STHeiti Medium.ttc"
+FADE_DURATION = 0.5  # 转场淡入淡出时长（秒）
 
 def run_cmd(cmd):
     max_retries = 3
@@ -162,17 +163,24 @@ def process_clip(clip_data, video_path, temp_dir, font_path, avatar_path=None):
             f"drawbox=y=1380:x=80:w=920:h={bubble_h}:color=black@0.5:t=fill[with_bubble];"
             f"[1:v]scale=120:120,format=rgba,geq=lum='p(X,Y)':a='if(gt(sqrt(pow(X-60,2)+pow(Y-60,2)),60),0,255)'[avatar_round];"
             f"[with_bubble][avatar_round]overlay=110:1410[with_avatar];"
-            f"[with_avatar]{draw_text_filter}[outv]"
+            f"[with_avatar]{draw_text_filter}[pre_fade]"
         )
     else:
-        avatar_filter = f"{draw_text_filter}[outv]"
+        avatar_filter = f"{draw_text_filter}[pre_fade]"
+
+    # 添加淡入淡出转场效果
+    fade_out_start = max(0, clip_duration - FADE_DURATION)
+    fade_filter = f"[pre_fade]fade=t=in:st=0:d={FADE_DURATION},fade=t=out:st={fade_out_start:.2f}:d={FADE_DURATION}[outv]"
+    audio_fade = f"[0:a]afade=t=in:st=0:d={FADE_DURATION},afade=t=out:st={fade_out_start:.2f}:d={FADE_DURATION}[outa]"
 
     filter_complex = (
         "[0:v]split=2[bg][main];"
         "[bg]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=20:10[bg_blurred];"
         "[main]scale=1080:-1[main_scaled];"
         f"[bg_blurred][main_scaled]overlay=0:(H-h)/2[merged];"
-        f"[merged]{avatar_filter}"
+        f"[merged]{avatar_filter};"
+        f"{fade_filter};"
+        f"{audio_fade}"
     )
 
     convert_cmd = [
@@ -183,7 +191,7 @@ def process_clip(clip_data, video_path, temp_dir, font_path, avatar_path=None):
         
     convert_cmd.extend([
         "-filter_complex", filter_complex,
-        "-map", "[outv]", "-map", "0:a",
+        "-map", "[outv]", "-map", "[outa]",
         "-c:v", "libx264", "-c:a", "aac", "-y", final_clip_path
     ])
     

@@ -1,0 +1,57 @@
+{
+  "series_info": {
+    "title": "金婚",
+    "episode": 15,
+    "year": 2007,
+    "stars": [
+      "张国立",
+      "蒋雯丽",
+      "林永健",
+      "李菁菁"
+    ],
+    "roles": [
+      "佟志",
+      "文丽",
+      "大庄",
+      "庄嫂"
+    ],
+    "plot_summary": "佟志参加毛泽东思想学习班，遇到了改名方红冰的老同学方左亚。方红冰对佟志有旧情，两人在学习班产生暧昧。庄嫂怀疑大庄与方红冰有问题，拉着文丽去学习班'查岗'。佟志则因为'力不从心'的问题苦恼，而文丽生了三个女儿后还想再要一个儿子。"
+  },
+  "clips": [
+    {
+      "id": "clip_1",
+      "time_range": { "start": "00:00:36", "end": "00:01:30" },
+      "duration": 54,
+      "title": "生仨闺女老婆还想生？",
+      "commentary_text": "佟志生了三个女儿\n文丽还想再要一个儿子\n这工资可怎么够花",
+      "target_audience_insight": "计划生育年代的生育困境，很多银发族都经历过'重男轻女'的社会压力。佟志的无奈和大庄的调侃，引发老年观众对那个年代的回忆和共鸣。"
+    },
+    {
+      "id": "clip_2",
+      "time_range": { "start": "00:06:05", "end": "00:07:03" },
+      "duration": 58,
+      "title": "四十岁就不行了？",
+      "commentary_text": "佟志才四十就愁眉苦脸\n大庄一问才知道是那事\n爷爷六十还生娃呢",
+      "target_audience_insight": "中年男性的'难言之隐'是银发族能会心一笑的话题。佟志的苦恼、大庄的调侃、以及'我爷六十还生我姑呢'的对比，让老年观众既怀旧又乐呵。"
+    }
+  ],
+  "wechat": {
+    "title": "四十岁的男人就不行了？",
+    "description": "佟志生了仨闺女，文丽还想再生一个要儿子。佟志才四十就愁眉苦脸，一问才知道是'那事'不行了。大庄说我爷六十还生我姑呢，你这四十咋就不行了？😂 这话题是不是有点眼熟？",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50", "#60", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#中年危机", "#生育"],
+    "pinned_comment": "那个年代，您家是头胎就生了儿子，还是像佟志这样生了好几个女儿？"
+  },
+  "douyin": {
+    "title": "四十岁的男人就不行了？",
+    "description": "佟志才四十就愁眉苦脸，大庄一问才知道是'那事'😂 说我爷六十还生我姑呢！佟志自己生了仨闺女，文丽还想再生一个要儿子。那个年代的生育压力，您还记得吗？👇",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50", "#60", "#回忆", "#张国立", "#蒋雯丽", "#林永健", "#李菁菁", "#佟志", "#文丽", "#大庄", "#庄嫂", "#中年危机", "#生育"],
+    "pinned_comment": "您家那会儿生了几个孩子？"
+  },
+  "youtube": {
+    "title": "四十岁男人的难言之隐 | A 40-Year-Old Man's Midlife Crisis",
+    "description": "【金婚 Golden Marriage EP15】佟志参加毛泽东思想学习班，遇到了老同学方红冰。佟志和文丽已经有了三个女儿，但文丽还想要个儿子。而佟志才四十岁就'力不从心'，大庄问他情况，佟志苦恼地说：我爷六十还生我姑呢，我这才四十咋就不行了？\n\n🌍 For international viewers: In 1970s China, Tong Zhi and Wen Li have three daughters, but Wen Li still wants a son due to traditional preference for boys. Meanwhile, Tong Zhi is worried about his declining... capabilities at age 40. His friend consoles him: \"My grandfather had my aunt when he was 60!\" A humorous look at middle-aged men's concerns across cultures.\n\n📺 朋友们，那个年代的生育压力，您还有印象吗？\n🎬 Subscribe for more classic Chinese drama clips with cultural insights!",
+    "tags": ["金婚", "GoldenMarriage", "ChineseDrama", "ClassicCDrama", "Cdrama", "AsianDrama", "ChineseCulture", "VintageChina", "MarriageLife", "父母爱情", "怀旧", "张国立", "蒋雯丽", "MidlifeCrisis", "1970sChina", "ChineseFamily"],
+    "pinned_comment": "Midlife crisis at 40? His grandpa had a baby at 60! 四十岁就不行了？爷爷六十还生娃呢！",
+    "playlists": "咱的《金婚》"
+  }
+}

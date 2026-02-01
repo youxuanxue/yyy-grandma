@@ -1,0 +1,57 @@
+{
+  "series_info": {
+    "title": "金婚",
+    "episode": 16,
+    "year": 2007,
+    "stars": [
+      "张国立",
+      "蒋雯丽",
+      "林永健",
+      "李菁菁"
+    ],
+    "roles": [
+      "佟志",
+      "文丽",
+      "大庄",
+      "庄嫂"
+    ],
+    "plot_summary": "文丽意外怀孕，佟志觉得经济压力大不想要。婆婆从四川赶来，坚持认为这次是男孩，写下保证书：如果不是男孩，就带着孩子回四川永不回北京。婆婆甚至冲进手术室阻止文丽做人流。最终文丽生下了儿子，全家人喜极而泣。"
+  },
+  "clips": [
+    {
+      "id": "clip_1",
+      "time_range": { "start": "00:05:50", "end": "00:06:27" },
+      "duration": 37,
+      "title": "生闺女是一张桌子四条腿",
+      "commentary_text": "生闺女是一张桌子四条腿\n凑够四条腿桌子才算完\n那个年代的老话您听过吗",
+      "target_audience_insight": "这句老话很多银发族都听过，反映了那个年代对生儿生女的看法。文丽妈的话既有无奈也有智慧，能引发老年观众的共鸣和回忆。"
+    },
+    {
+      "id": "clip_2",
+      "time_range": { "start": "00:37:54", "end": "00:38:45" },
+      "duration": 51,
+      "title": "生了三个女儿终于盼来儿子",
+      "commentary_text": "文丽连生三个女儿\n这次换尿布发现是儿子\n全家人激动得不得了",
+      "target_audience_insight": "那个年代生儿子是很多家庭的执念。文丽发现是儿子时的惊喜、佟志的激动、婆婆的如愿，让经历过那个年代的银发族感同身受。"
+    }
+  ],
+  "wechat": {
+    "title": "生了三个女儿终于盼来儿子",
+    "description": "文丽连生三个女儿，婆婆从四川赶来，坚持说这次是儿子，还写下保证书。换尿布时发现竟然真是儿子，全家人激动得不得了。那个年代的'重男轻女'，您还记得吗？",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50", "#60", "#回忆", "#张国立", "#蒋雯丽", "#生儿子", "#重男轻女", "#婆媳关系", "#那个年代"],
+    "pinned_comment": "那个年代您家是更想要儿子还是女儿？现在想法变了吗？"
+  },
+  "douyin": {
+    "title": "生了三个女儿终于盼来儿子",
+    "description": "文丽连生三个女儿，婆婆从四川赶来写保证书说这次是儿子。换尿布发现真是儿子，全家激动坏了😂 那个年代的'重男轻女'，您还记得吗？👇",
+    "hashtags": ["#金婚", "#父母爱情", "#怀旧", "#影视剪辑", "#爱情", "#50", "#60", "#回忆", "#张国立", "#蒋雯丽", "#生儿子", "#重男轻女", "#婆媳关系", "#那个年代"],
+    "pinned_comment": "那个年代您家生了几个孩子？"
+  },
+  "youtube": {
+    "title": "婆婆的神预言成真了 | Grandma's Prediction Came True",
+    "description": "【金婚 Golden Marriage EP16】文丽已经有了三个女儿，这次又怀孕了。婆婆从四川赶来，坚信这次是个儿子，甚至写下保证书：如果不是男孩，带着孩子回四川永不回北京。文丽不信，全家人都觉得又是女儿。结果换尿布时发现——竟然真是儿子！\n\n🌍 For international viewers: After three daughters, Wen Li is pregnant again. Her mother-in-law arrives from Sichuan, insisting it's a boy and even writes a guarantee letter. When they change the baby's diaper and discover it IS a boy, the whole family is overjoyed! A story about family expectations in 1970s China.\n\n📺 那个年代的'重男轻女'，您经历过吗？\n🎬 Subscribe for more classic Chinese drama clips with cultural insights!",
+    "tags": ["金婚", "GoldenMarriage", "ChineseDrama", "ClassicCDrama", "Cdrama", "AsianDrama", "ChineseCulture", "VintageChina", "MarriageLife", "父母爱情", "怀旧", "张国立", "蒋雯丽", "BabyBoy", "ChineseFamily", "1970sChina"],
+    "pinned_comment": "Three daughters and finally a son! 三个女儿终于盼来儿子！",
+    "playlists": "咱的《金婚》"
+  }
+}
